@@ -13,4 +13,3 @@ Student: 2127833 - Ngo Thoi Chanh
     Email=ntchanh@student.hcmus.edu.vn
     DOB=12/06/2003
     Address=8 Binh Long, Binh Hung Hoa Ward, Bin Tan District, Ho Chi Minh city
-Student: 20120797 - Luong Dieu Minh

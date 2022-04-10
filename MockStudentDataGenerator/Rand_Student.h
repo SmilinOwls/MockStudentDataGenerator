@@ -1,25 +1,26 @@
 #pragma once
-#include "Student.h"
-
+#ifndef _H_R_STUDENT_H
 //define vector of string class
 //to call in functions
+#define _H_R_STUDENT_H
+#include "Student.h"
 typedef vector<string> info_arr;
 typedef vector<Student> student_arr;
 
 //function to store first name string
-info_arr first_name()
+static info_arr first_name()
 {
     return info_arr({ "Nguyen","Ngo","Tran","Huynh","Pham","Ho","Do","Luong","Le","Phan","Vu","Vo","Bui","Duong","Ly" });
 }
 
 //function to store middle name string
-info_arr middle_name()
+static info_arr middle_name()
 {
     return info_arr({ "Quang","Van","Thi","Cam","Huu","Dieu","Thoi","" });
 }
 
 //function to store last name string
-info_arr last_name()
+static info_arr last_name()
 {
     return info_arr({ "Minh","Linh","Chanh","Truong","Sang","Tai","Thinh","Phuoc" });
 }
@@ -56,3 +57,6 @@ public:
 private:
     student_arr _s; //a vector of students called _s
 };
+#endif // !_H_R_STUDENT_H
+
+

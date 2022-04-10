@@ -50,6 +50,8 @@ tuple<bool, string, student_arr> File::readFile(const string& file_path)
                 break;
             }
 
+            iLine++;
+
             if (regex_match(line.substr(line.find("Telephone=") + 10), regex("^0[\\d]{3}(-[\\d]{3}){2}")))
                 X.setPhone(line.substr(line.find("Telephone=") + 10));
             else

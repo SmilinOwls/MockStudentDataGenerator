@@ -13,28 +13,4 @@ Student: 2127833 - Ngo Thoi Chanh
     Email=ntchanh@student.hcmus.edu.vn
     DOB=12/06/2003
     Address=8 Binh Long, Binh Hung Hoa Ward, Bin Tan District, Ho Chi Minh city
-Student: 20120727 - Huynh Thoi Truong
-    GPA=9.96, Telephone=0915-297-396
-    Email=httruong@student.hcmus.edu.vn
-    DOB=03/06/2002
-    Address=
-Student: 20120329 - Ngo Thoi Tai
-    GPA=0.18, Telephone=0973-180-702
-    Email=nttai@student.hcmus.edu.vn
-    DOB=26/09/2002
-    Address=
-Student: 20120195 - Vo Dieu Sang
-    GPA=6.39, Telephone=0961-054-629
-    Email=vdsang@student.hcmus.edu.vn
-    DOB=20/06/2002
-    Address=
-Student: 20120650 - Luong Thi Truong
-    GPA=9.21, Telephone=0965-432-767
-    Email=lttruong@student.hcmus.edu.vn
-    DOB=08/10/2002
-    Address=
-Student: 20120860 - Le Huu Chanh
-    GPA=9.26, Telephone=0917-533-129
-    Email=lhchanh@student.hcmus.edu.vn
-    DOB=31/05/2002
-    Address=
+Student: 20120797 - Luong Dieu Minh

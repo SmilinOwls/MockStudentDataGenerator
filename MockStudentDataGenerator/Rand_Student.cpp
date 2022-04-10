@@ -3,6 +3,7 @@
 #define _H_RAND_STUDENT_H
 
 #include "Rand_Student.h"
+
 Rand_Student::Rand_Student() {}
 
 Rand_Student::Rand_Student(const student_arr& _s) : _s(_s) {}
@@ -118,7 +119,37 @@ void Rand_Student::rand_dob(Student& x)
 
 void Rand_Student::rand_address(Student& x)
 {
+    map<string, map<string, string>> addr;
 
+    ifstream f("district.txt");
+    string line = "";
+    size_t index = 0;
+    string district = "", ward = "";
+    while (!f.eof())
+    {
+        getline(f, line);
+        if (line.empty()) return;
+        index = line.find(':');
+        district = line.substr(0, index);
+        line = line.substr(index + 2);
+
+        size_t findW = line.find(',');
+        while (findW != string::npos)
+        {
+            ward = line.substr(0, findW);
+            addr[district].insert(make_pair(ward, ""));
+            line = line.substr(findW + 2);
+            findW = line.find(',');
+        }
+        addr[district].insert(make_pair(line, ""));
+    }
+
+    int rand_dis = rand()% addr.size();
+
+    map<string, map<string, string>>::iterator it = addr.begin();
+    while(rand_dis--) it ++;
+
+    x.setAddress(it->first  + ", Ho Chi Minh city");
 }
 
 void Rand_Student::rand_student_info()
@@ -131,7 +162,7 @@ void Rand_Student::rand_student_info()
         rand_gpa(_s[i]); //random for gpa
         rand_id_phone(8, _s[i]); //random for phone
         rand_dob(_s[i]); //random for dob
-      //  rand_address(_s[i]); //random for address
+        rand_address(_s[i]); //random for address
     }
 }
 

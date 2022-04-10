@@ -1,0 +1,5 @@
+District 1: Ben Nghe Ward, Ben Thanh Ward, Cau Kho Ward
+District 7: Binh Thanh Ward, Phu My Ward, Phu Thuan Ward
+District 12: An Phu Dong Ward, Dong Hung Thuan Ward, Hiep Thanh Ward
+Phu Nhuan District: Ward 1, Ward 2, Ward 3
+Tan Phu District: Tan Hiep Ward, Hoa Thach Ward, Phu Thach Ward

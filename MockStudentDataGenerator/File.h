@@ -1,12 +1,11 @@
 #pragma once
 #ifndef _H_FILE_H
 #define _H_FILE_H
-#include "Student.h"
 #include "Rand_Student.h"
 
 //to left trim a string if left characters of string 
 //contains those chars like "\t\n\v\f\r" 
-string& ltrim(string& str, const string& chars = "\t\n\v\f\r ")
+static string& ltrim(string& str, const string& chars = "\t\n\v\f\r ")
 {
     str.erase(0, str.find_first_not_of(chars));
     return str;

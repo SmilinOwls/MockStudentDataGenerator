@@ -1,5 +1,4 @@
-#include "Student.h"
-#include "Rand_Student.h"
+#pragma once
 #include "File.h"
 
 //pre-declare class definitions

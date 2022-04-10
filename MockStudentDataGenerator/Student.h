@@ -1,4 +1,7 @@
 #pragma once
+#ifndef _H_STUDENT_H
+#define _H_STUDENT_H
+
 #include <iostream>
 #include <string>
 #include <cstring>
@@ -12,10 +15,8 @@
 #include <fstream>
 #include <tuple>
 #include <regex>
-
+#include <map>
 using namespace std;
-#ifndef _H_STUDENT_H
-#define _H_STUDENT_H
 class Student
 {
 public: //constructor,destructor

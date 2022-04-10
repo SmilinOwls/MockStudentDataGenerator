@@ -1,0 +1,40 @@
+Student: 2127831 - Tran Huu Minh
+    GPA=7.3, Telephone=0909-888-773
+    Email=thminh@student.hcmus.edu.vn
+    DOB=17/12/2003
+    Address=8 Nguyen Dinh Chieu, Ward 5, District 3, Ho Chi Minh city
+Student: 2127832 - Nguyen Dieu Linh
+    GPA=9.22, Telephone=0912-351-718
+    Email=thminh@student.hcmus.edu.vn
+    DOB=23/09/2003
+    Address=22 Ngo Thoi Nhiem, Ward 2, District 1, Ho Chi Minh city 
+Student: 2127833 - Ngo Thoi Chanh
+    GPA=8.12, Telephone=0977-161-237
+    Email=ntchanh@student.hcmus.edu.vn
+    DOB=12/06/2003
+    Address=8 Binh Long, Binh Hung Hoa Ward, Bin Tan District, Ho Chi Minh city
+Student: 20120727 - Huynh Thoi Truong
+    GPA=9.96, Telephone=0915-297-396
+    Email=httruong@student.hcmus.edu.vn
+    DOB=03/06/2002
+    Address=
+Student: 20120329 - Ngo Thoi Tai
+    GPA=0.18, Telephone=0973-180-702
+    Email=nttai@student.hcmus.edu.vn
+    DOB=26/09/2002
+    Address=
+Student: 20120195 - Vo Dieu Sang
+    GPA=6.39, Telephone=0961-054-629
+    Email=vdsang@student.hcmus.edu.vn
+    DOB=20/06/2002
+    Address=
+Student: 20120650 - Luong Thi Truong
+    GPA=9.21, Telephone=0965-432-767
+    Email=lttruong@student.hcmus.edu.vn
+    DOB=08/10/2002
+    Address=
+Student: 20120860 - Le Huu Chanh
+    GPA=9.26, Telephone=0917-533-129
+    Email=lhchanh@student.hcmus.edu.vn
+    DOB=31/05/2002
+    Address=

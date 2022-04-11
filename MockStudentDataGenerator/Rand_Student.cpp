@@ -117,39 +117,43 @@ void Rand_Student::rand_dob(Student& x)
     x.setDob((day < 10 ? "0" + to_string(day) : to_string(day)) + "/" + _month + "/" + "2002");
 }
 
-void Rand_Student::rand_address(Student& x)
+static void rAddress()
 {
-    map<string, map<string, string>> addr;
-
-    ifstream f("district.txt");
+    ifstream f("address.json");
     string line = "";
     size_t index = 0;
-    string district = "", ward = "";
-    while (!f.eof())
+    string district = "", ward = "", street = "";
+    json j;
+    f >> j;
+    for (json::iterator it_dis = j.begin(); it_dis != j.end(); it_dis++)
     {
-        getline(f, line);
-        if (line.empty()) return;
-        index = line.find(':');
-        district = line.substr(0, index);
-        line = line.substr(index + 2);
-
-        size_t findW = line.find(',');
-        while (findW != string::npos)
+        district = it_dis.key();
+        for (json::iterator it_war = it_dis.value().begin(); it_war != it_dis.value().end(); it_war++)
         {
-            ward = line.substr(0, findW);
-            addr[district].insert(make_pair(ward, ""));
-            line = line.substr(findW + 2);
-            findW = line.find(',');
+            ward = it_war.key();
+            for (size_t i = 0; i < it_war.value().size(); i++)
+            {
+                street = it_war.value()[i].get<string>();
+                addr[district][ward].push_back(street);
+            }
         }
-        addr[district].insert(make_pair(line, ""));
     }
+}
 
-    int rand_dis = rand()% addr.size();
+void Rand_Student::rand_address(Student& x)
+{
+    int rand_dis = rand() % addr.size();
+    int rand_war = 0, rand_str = 0;
+    string address;
+    map<string, map<string, vector<string>>>::iterator it_dis = addr.begin();
+    while (rand_dis--) it_dis++;
 
-    map<string, map<string, string>>::iterator it = addr.begin();
-    while(rand_dis--) it ++;
+    map<string, vector<string>>::iterator it_war = it_dis->second.begin();
+    rand_war = rand() % it_dis->second.size();
+    while (rand_war--) it_war++;
 
-    x.setAddress(it->first  + ", Ho Chi Minh city");
+    address = it_war->second[rand() % it_war->second.size()] +  ", " + it_war->first + ", " + it_dis->first + ", " + "Ho Chi Minh city";
+    x.setAddress(to_string(1 + rand() % 20) + " " + address);
 }
 
 void Rand_Student::rand_student_info()
@@ -162,6 +166,8 @@ void Rand_Student::rand_student_info()
         rand_gpa(_s[i]); //random for gpa
         rand_id_phone(8, _s[i]); //random for phone
         rand_dob(_s[i]); //random for dob
+
+        rAddress();
         rand_address(_s[i]); //random for address
     }
 }

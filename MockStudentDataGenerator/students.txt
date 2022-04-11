@@ -13,33 +13,38 @@ Student: 2127833 - Ngo Thoi Chanh
     Email=ntchanh@student.hcmus.edu.vn
     DOB=12/06/2003
     Address=8 Binh Long, Binh Hung Hoa Ward, Bin Tan District, Ho Chi Minh city
-Student: 20120842 - Vo Huu Sang
-    GPA=1.19, Telephone=0991-255-821
-    Email=vhsang@student.hcmus.edu.vn
-    DOB=30/01/2002
-    Address=4 TX43, Thanh Xuan Ward, District 12, Ho Chi Minh city
-Student: 20120175 - Ho Thi Chanh
-    GPA=3.03, Telephone=0901-816-978
-    Email=htchanh@student.hcmus.edu.vn
-    DOB=20/09/2002
-    Address=12 Hoa Hong, Ward 2, Phu Nhuan District, Ho Chi Minh city
-Student: 20120880 - Pham Dieu Phuoc
-    GPA=6.07, Telephone=0962-597-196
-    Email=pdphuoc@student.hcmus.edu.vn
-    DOB=20/05/2002
-    Address=14 Huynh Tan Phat, Tan Phu Ward, District 7, Ho Chi Minh city
-Student: 20120567 - Ho Huu Truong
-    GPA=7.68, Telephone=0952-290-896
-    Email=hhtruong@student.hcmus.edu.vn
-    DOB=11/03/2002
-    Address=6 Khuong Viet, Phu Trung Ward, Tan Phu District, Ho Chi Minh city
-Student: 20120873 - Pham Huu Minh
-    GPA=2.44, Telephone=0939-226-583
-    Email=phminh@student.hcmus.edu.vn
-    DOB=05/04/2002
-    Address=2 Phan Boi Chau, Ben Thanh Ward, District 1, Ho Chi Minh city
-Student: 20120219 - Ly Thi Sang
-    GPA=1.82, Telephone=0982-618-542
-    Email=ltsang@student.hcmus.edu.vn
-    DOB=17/10/2002
-    Address=6 Hoang Van Thai, Tan Phu Ward, District 7, Ho Chi Minh city
+Student: 20120241 - Phan Cam Thinh
+    GPA=2.86, Telephone=0914-576-400
+    Email=pcthinh@student.hcmus.edu.vn
+    DOB=14/11/2002
+    Address=10 Le Thanh Ton, Ben Nghe Ward, District 1, Ho Chi Minh city
+Student: 20120082 - Ho Huu Linh
+    GPA=9.04, Telephone=0946-986-580
+    Email=hhlinh@student.hcmus.edu.vn
+    DOB=18/09/2002
+    Address=16 Thu Khoa Huan, Phu My Ward, District 7, Ho Chi Minh city
+Student: 20120529 - Ngo Huu Chanh
+    GPA=0.96, Telephone=0980-896-765
+    Email=nhchanh@student.hcmus.edu.vn
+    DOB=09/12/2002
+    Address=19 To Hieu, Tan Hiep Ward, Tan Phu District, Ho Chi Minh city
+Student: 20120167 - Pham Van Minh
+    GPA=3.77, Telephone=0925-361-370
+    Email=pvminh@student.hcmus.edu.vn
+    DOB=27/12/2002
+    Address=3 Phan Xich Long, Ward 1, Phu Nhuan District, Ho Chi Minh city
+Student: 20120740 - Tran Dieu Truong
+    GPA=9.27, Telephone=0933-665-591
+    Email=tdtruong@student.hcmus.edu.vn
+    DOB=07/02/2002
+    Address=9 Hoa Hong, Ward 2, Phu Nhuan District, Ho Chi Minh city
+Student: 20120905 - Luong Bui Tai
+    GPA=0.86, Telephone=0955-603-387
+    Email=lbtai@student.hcmus.edu.vn
+    DOB=19/01/2002
+    Address=14 Nguyen Dinh Chieu, Ward 3, Phu Nhuan District, Ho Chi Minh city
+Student: 20120824 - Do Quang Minh
+    GPA=8.63, Telephone=0947-593-251
+    Email=dqminh@student.hcmus.edu.vn
+    DOB=18/05/2002
+    Address=15 Phan Xich Long, Ward 1, Phu Nhuan District, Ho Chi Minh city

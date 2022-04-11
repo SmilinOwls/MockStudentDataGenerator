@@ -1,11 +1,14 @@
 #pragma once
 #ifndef _H_R_STUDENT_H
-//define vector of string class
-//to call in functions
 #define _H_R_STUDENT_H
 #include "Student.h"
+
+//define vector of string class
+//to call in functions
 typedef vector<string> info_arr;
 typedef vector<Student> student_arr;
+
+static map<string, map<string, vector<string>>> addr;
 
 //function to store first name string
 static info_arr first_name()

@@ -16,6 +16,11 @@
 #include <tuple>
 #include <regex>
 #include <map>
+#include "json.hpp"
+
+//for convenient
+using json = nlohmann::json;
+
 using namespace std;
 class Student
 {

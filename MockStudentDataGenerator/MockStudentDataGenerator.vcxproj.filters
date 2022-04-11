@@ -38,5 +38,18 @@
     <ClInclude Include="File.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="students.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rankings.csv">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

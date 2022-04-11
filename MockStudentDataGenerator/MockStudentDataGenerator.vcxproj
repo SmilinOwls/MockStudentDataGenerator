@@ -146,8 +146,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="File.h" />
+    <ClInclude Include="json.hpp" />
     <ClInclude Include="Rand_Student.h" />
     <ClInclude Include="Student.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="students.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rankings.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

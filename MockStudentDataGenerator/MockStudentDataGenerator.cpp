@@ -74,7 +74,7 @@ int main(int argc, char *arcv[])
     //6. sort Student vector DESC
     //then print out a TOP ranking student list
     //which is based on GPA of every each student
-    cout << "\nBONUS: 6. A T.O.P GPA ranking list of Sudents: " << endl;
+    cout << "\nBONUS: \r\n      A T.O.P GPA ranking list of Sudents:   " << endl;
     Students.sortStudent();
     cout << Students;
     File::wRakingFile("rankings.csv", Students);

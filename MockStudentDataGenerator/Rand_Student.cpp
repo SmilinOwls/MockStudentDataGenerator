@@ -13,9 +13,9 @@ Rand_Student::Rand_Student(const Rand_Student& _r)
     this->_s = _r._s;
 }
 
-Rand_Student& Rand_Student::operator=(const Rand_Student& Rs)
+Rand_Student& Rand_Student::operator=(const student_arr& _s)
 {
-    this->_s = Rs._s;
+    this->_s = _s;
     return *this;
 }
 

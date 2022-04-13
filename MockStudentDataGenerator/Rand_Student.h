@@ -37,7 +37,7 @@ public: //constructor, destructor
     Rand_Student(const Rand_Student&);
     ~Rand_Student() {}
 public: //setter / getter
-    Rand_Student& operator=(const Rand_Student&); //operator = function 
+    Rand_Student& operator=(const student_arr&); //operator = function 
     Rand_Student& operator+=(const Rand_Student&);//operator += function
     student_arr getArr() const;
     void setArr(const student_arr&);

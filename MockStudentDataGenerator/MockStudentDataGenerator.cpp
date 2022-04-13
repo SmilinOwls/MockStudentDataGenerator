@@ -1,6 +1,6 @@
 #pragma once
 #include "File.h"
-
+#include <Windows.h>
 //pre-declare class definitions
 class Student;
 class Rand_Student;
@@ -30,14 +30,17 @@ int main(int argc, char *arcv[])
    
     //create a new Student Vector
     //in order to store randomly-generated Students' infor
-    Rand_Student Student_Vector(student_arr(0));
+    Rand_Student Student_Vector;
 
     //1. generate randomly a number of n in range of [5,10]
     int _num = Student_Vector.rand_num(5, 10);
     cout << "1. Generate randomly a number n in the range of [5, 10]: " <<  _num;
 
+    Sleep(5000); //sleep 5000ms 
+
     //2. generate randomly n Students
     cout << "\n2. Generate randomly n Students and add to the previous vector. ";
+
     Student_Vector = student_arr(_num);
     Student_Vector.rand_student_info();
     
@@ -50,7 +53,7 @@ int main(int argc, char *arcv[])
     //3. overwite all students
     //saved in current vector back to
     //"student.txt" file
-    auto wFile = File::writeFile("students.txt",Students);
+    auto wFile = File::writeFile("students.txt", Students);
 
     //in case that file could not be written
     if (!get<0>(wFile))
@@ -59,25 +62,33 @@ int main(int argc, char *arcv[])
         return 0;              //return error code 0
     }
 
+    Sleep(5000); //sleep 1000ms 
+
     //as a result, output all data stored in the current Student vector
     cout << "\n3. Overwrite and save and the students in the current vector back to the file \"students.txt\" ";
     cout << endl << endl << Students;
+
+    Sleep(5000); //sleep 5000ms 
 
     //4. print out the average GPA of all students
     double avgPoint = Rand_Student::avgGpa(Students.getArr());
     cout << "\n4. The average GPA of all students: " << avgPoint;
 
+    Sleep(5000); //sleep 5000ms 
     //5. print out all the students having a GPA greater than the average GPA
     cout << "\n5. Print out all the students that have a GPA greater than the average GPA " << endl;
     Students.avgPrint(avgPoint);
 
+    Sleep(5000); //sleep 5000ms 
+
     //6. sort Student vector DESC
     //then print out a TOP ranking student list
     //which is based on GPA of every each student
-    cout << "\nBONUS: \r\n      A T.O.P GPA ranking list of Sudents:   " << endl;
+    cout << "\nBONUS: \r\n             A T.O.P GPA ranking list of Sudents:             " << endl;
     Students.sortStudent();
     cout << Students;
     File::wRakingFile("rankings.csv", Students);
-
+    
+    Sleep(100000); //sleep 100000 ms
     return 1;
 }

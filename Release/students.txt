@@ -1,0 +1,50 @@
+Student: 2127831 - Tran Huu Minh
+    GPA=7.3, Telephone=0909-888-773
+    Email=thminh@student.hcmus.edu.vn
+    DOB=17/12/2003
+    Address=8 Nguyen Dinh Chieu, Ward 5, District 3, Ho Chi Minh city
+Student: 2127832 - Nguyen Dieu Linh
+    GPA=9.22, Telephone=0912-351-718
+    Email=thminh@student.hcmus.edu.vn
+    DOB=23/09/2003
+    Address=22 Ngo Thoi Nhiem, Ward 2, District 1, Ho Chi Minh city 
+Student: 2127833 - Ngo Thoi Chanh
+    GPA=8.12, Telephone=0977-161-237
+    Email=ntchanh@student.hcmus.edu.vn
+    DOB=12/06/2003
+    Address=8 Binh Long, Binh Hung Hoa Ward, Bin Tan District, Ho Chi Minh city
+Student: 20120583 - Luong Thoi Phuoc
+    GPA=9.99, Telephone=0945-143-108
+    Email=ltphuoc@student.hcmus.edu.vn
+    DOB=16/12/2002
+    Address=2 Doan Thi Diem, Ward 1, Phu Nhuan District, Ho Chi Minh city
+Student: 20120077 - Bui Cam Linh
+    GPA=4.47, Telephone=0994-737-462
+    Email=bclinh@student.hcmus.edu.vn
+    DOB=02/09/2002
+    Address=17 Bui Thi Xuan, Phu My Ward, District 7, Ho Chi Minh city
+Student: 20120629 - Duong Quang Minh
+    GPA=5.52, Telephone=0937-322-785
+    Email=dqminh@student.hcmus.edu.vn
+    DOB=23/07/2002
+    Address=10 Thach Lam, Phu Thach Ward, Tan Phu District, Ho Chi Minh city
+Student: 20120599 - Nguyen Dieu Truong
+    GPA=4.31, Telephone=0987-510-899
+    Email=ndtruong@student.hcmus.edu.vn
+    DOB=11/05/2002
+    Address=13 Nhieu Loc, Ward 2, Phu Nhuan District, Ho Chi Minh city
+Student: 20120608 - Bui Huu Minh
+    GPA=9.52, Telephone=0968-095-075
+    Email=bhminh@student.hcmus.edu.vn
+    DOB=28/10/2002
+    Address=3 Tran Dinh Xu, Cau Kho Ward, District 1, Ho Chi Minh city
+Student: 20120993 - Luong Ngo Phuoc
+    GPA=8.36, Telephone=0986-751-393
+    Email=lnphuoc@student.hcmus.edu.vn
+    DOB=07/01/2002
+    Address=14 Vuon Lai, An Phu Dong Ward, District 12, Ho Chi Minh city
+Student: 20120101 - Vo Van Truong
+    GPA=0.4, Telephone=0980-500-503
+    Email=vvtruong@student.hcmus.edu.vn
+    DOB=05/08/2002
+    Address=4 Phan Boi Chau, Phu My Ward, District 7, Ho Chi Minh city

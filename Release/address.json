@@ -1,0 +1,88 @@
+{
+  "District 1": {
+    "Ben Nghe Ward": [
+      "Nguyen Hue",
+      "Le Thanh Ton",
+      "Le Duan"
+    ],
+    "Ben Thanh Ward": [
+      "Bui Thi Xuan",
+      "Phan Boi Chau",
+      "Thu Khoa Huan"
+    ],
+    "Cau Kho Ward": [
+      "Tran Hung Dao",
+      "Tran Dinh Xu",
+      "Vo Van Kiet"
+    ]
+  },
+  "District 12": {
+    "An Phu Dong Ward": [
+      "D3",
+      "Vuon Lai",
+      "National Highway 1A"
+    ],
+    "Dong Hung Thuan Ward": [
+      "10B",
+      "Phan Boi Chau",
+      "Thu Khoa Huan"
+    ],
+    "Thanh Xuan Ward": [
+      "Highway 1A",
+      "TX43",
+      "To Ngoc Van"
+    ]
+  },
+  "District 7": {
+    "Tan Phu Ward": [
+      "Hoang Van Thai",
+      "Huynh Tan Phat",
+      "Nguyen Van Linh"
+    ],
+    "Phu My Ward": [
+      "Bui Thi Xuan",
+      "Phan Boi Chau",
+      "Thu Khoa Huan"
+    ],
+    "Phu Thuan Ward": [
+      "D1",
+      "Nguyen Luong Bang",
+      "Hoang Quoc Viet"
+    ]
+  },
+  "Phu Nhuan District": {
+    "Ward 1": [
+      "Doan Thi Diem",
+      "Phan Dang Luu",
+      "Phan Xich Long"
+    ],
+    "Ward 2": [
+      "Cu Lao",
+      "Nhieu Loc",
+      "Hoa Hong"
+    ],
+    "Ward 3": [
+      "Phan Dang Luu",
+      "Nguyen Dinh Chieu",
+      "Nguyen Kiem"
+    ]
+  },
+  "Tan Phu District": {
+    "Tan Hiep Ward": [
+      "To Hieu",
+      "Hoa Binh",
+      "Truong Van Hai"
+    ],
+
+    "Phu Trung Ward": [
+      "Au Co",
+      "Huynh Van Chinh",
+      "Khuong Viet"
+    ],
+    "Phu Thach Ward": [
+      "Thach Lam",
+      "Hien Vuong",
+      "Le Niem"
+    ]
+  }
+}

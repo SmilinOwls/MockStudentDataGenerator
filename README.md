@@ -28,7 +28,7 @@
    - Validate Check: Indicate the **Error Line** position in text if wrongly formatted
 ## Prerequisites
 - Visual Studio Code 2019 or latest versions
-- Build & Run on `gcc std=c++11` or above
+- Build, Compile & Run on `gcc std=c++11` or above
 ## Install
 
 ```sh
@@ -57,7 +57,7 @@ npm run test
 
 ## 🤝 Contributing
 
-<br> Contributions, issues and feature requests are welcome!<br />. You can also take a look at the [contributing guide](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/CONTRIBUTING.md).
+<br> Contributions, issues and feature requests are welcome!<br />. You can also take a look at the [contributing guide (https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/CONTRIBUTING.md)
 
 ## Show your support
 

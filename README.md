@@ -56,8 +56,7 @@ npm run test
 * Full Name: Ngô Nguyễn Quang Tú
 
 ## 🤝 Contributing
-
-<br> Contributions, issues and feature requests are welcome!<br />. You can also take a look at the [contributing guide (https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/CONTRIBUTING.md)
+Contributions, issues and feature requests are welcome! You can also take a look at the [contributing guide](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/CONTRIBUTING.md)
 
 ## Show your support
 

@@ -30,16 +30,18 @@
    - Read A File In `JSON` Format (for address random generator)
    - Validate Check: Indicate the **Error Line** position in text if wrongly formatted (bonus function)
    - Sort A Vector And Save As A Ranked List In **.csv** Format (bonus function)
+
 ## Prerequisites
 - Visual Studio Code 2019 or latest versions
 - Build, Compile & Run on `gcc std=c++11` or above
+
 ## Install
 
 - Open Terminal (MacOS) or CMD Shell (Windows), then go on command line described below:
 ```sh
 #Change your direction path to Desktop/ 
 cd Desktop/
-#Fork the project, clone this fork in a repo called *MockStudentDataGenerator*
+#Fork the project, clone this fork in a repo called MockStudentDataGenerator
 git clone https://github.com/SmilinOwls/MockStudentDataGenerator/ MockStudentDataGenerator
 #Navigate to the newly cloned repo
 cd MockStudentDataGenerator/
@@ -65,6 +67,21 @@ npm run test
 * Github: [@SmilinOwls](https://github.com/SmilinOwls "SmilinOwls")
 * Student ID: 20120234
 * Full Name: Ngô Nguyễn Quang Tú
+
+## Working Progress
+After project, we both appreciate our experience on our team-working time which we are so grateful for and proud of ourselves. We are on 200% of our ability way to have accomplished one as soon as possible. Hence, all requirements described in [Project Instruction](https://tdquang7.notion.site/Project-Mock-data-generator-1-7c70a1a81b724049bd82ede839e2ff24) are completely met.
+
+|Basic Requirements|Done Status|
+|------------------|-----------|
+|Read all students saved in the file "students.txt" back into a vector of Student|Yes|
+|Generate randomly a number n in the range of [5, 10]|Yes|
+|Generate randomly n Students and add to the previous vector|Yes|
+|Overwrite and save and the students in the current vector back to the file "students.txt"|Yes|
+|Print out the average GPA of all students|Yes|
+|Print out all the students that have a GPA greater than the average GPA|Yes|
+
+## Bonus Functions
+Not only building the essential-coded function, we also add an external lib to help make a better random for addresses that are written in JSON format. In addition, there are some bonus functions to check the wrongly-formatted line in file students.txt (validate GPA, telephone, email, dob) then indicate where that line is through showing a message on console with line index. If prgramm runs without no failure, based on their own GPA a *.csv* ranked list will be released demonstrating the TOP students sorted ASC with ranked order.
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome! You can also take a look at the [contributing guide](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/CONTRIBUTING.md)

@@ -71,10 +71,10 @@ open MockStudentDataGenerator.exe
 3. Wait a second, here are the results all printed out on console to notice about the error format on each specified line, in particular:
       |     Item    | Specified Error Fomat Message |
       |-------------|-------------------------------|
-      | GPA|   |
-      |Tel|   |
-      |Email | |
-      |DOB | |
+      | GPA| ![gpa_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/gpa_error.png)  |
+      |Tel| ![tel_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/phone_error.png) |
+      |Email | ![email_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/email_error.png)|
+      |DOB | ![dob_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/dob_error.png)|
       
 ## Author
 

@@ -110,7 +110,7 @@ After project, we both appreciate our experience on our team-working time which 
 
 |Student ID| Workload |  Fulfilled-Work Percent | Subjective Grade |
 |----------|----------|-------------------------|------------------|
-|20120234  | an author of README.md, mainly responsible for every each aspect of project/solution (Source code, Release, Document/img), so on..  |       100%          |          9.5        |
+|20120234  | an author of README.md, mainly responsible for every each aspect of project/solution (Source code, Release, Documents/img), so on..  |       100%          |          9.5        |
 |20120229  |  draw class diagrams, write a detailed report,..        |               100%          |         9.5         |
 
 ## 🎥 Demo Video 

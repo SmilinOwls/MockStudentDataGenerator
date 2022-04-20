@@ -23,9 +23,10 @@
    ### Main Target 
    - Create Simple Classes 
    ### Sub Goal
-   - Practice On Handling Tuple, Using `rand()` Function
+   - Practice On Handling Data Stream By `tuple<classs T1,class T2,..>`, Using `rand()` Function To Generate Data 
    - Read A File In `JSON` Format
    - Validate Check: Indicate the **Error Line** position in text if wrongly formatted
+   - Sort A Vector And Save As A Ranking In **.csv** Format
 ## Prerequisites
 - Visual Studio Code 2019 or latest versions
 - Build, Compile & Run on `gcc std=c++11` or above

@@ -100,7 +100,7 @@ After project, we both appreciate our experience on our team-working time which 
 
 ## Bonus Functions
 
- Not only building the essential-coded function, we also add an [external lib]( https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/MockStudentDataGenerator/json.hpp "nlogmann/json.hpp") to help make a better random for [addresses](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/MockStudentDataGenerator/address.json "address") that are written in `JSON` format. In addition, there are some bonus functions to check the wrongly-formatted line in file **students.txt** (validate GPA, telephone, email, dob) then indicate where that line is through showing a message on console with line index. If prgramm runs without no failure, based on their own GPA a <i> .csv </i> ranked list will be released demonstrating the TOP students sorted ASC with ranked order. 
+ Not only building the essential-coded function, we also add an [external lib]( https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/MockStudentDataGenerator/json.hpp "nlogmann/json.hpp") to help make a better random for [addresses](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/MockStudentDataGenerator/address.json "address") that are written in `JSON` format as well. In addition, there are some bonus functions to check the wrongly-formatted line in file **students.txt** (validate GPA, telephone, email, dob) then indicate where that line is through showing a message on console with line index. If prgramm runs without no failure, based on their own GPA a <i> .csv </i> ranked list will be released demonstrating the TOP students sorted ASC with ranked order. 
  
 > *Sample Ranked List of T.O.P GPA Students:*
 

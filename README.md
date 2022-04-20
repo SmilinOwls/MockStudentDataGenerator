@@ -3,11 +3,11 @@
 <h1 align="center">MOCK STUDENT DATA GENERATOR 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://gcc.gnu.org/projects/cxx-status.html">
+    <img alt="g++ ver" src="https://img.shields.io/badge/g%2B%2B---std%3Dc%2B%2B11-blue"/>
+  </a>
   <a href="https://github.com/SmilinOwls/MockStudentDataGenerator#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green" />
@@ -56,7 +56,7 @@ open MockStudentDataGenerator.exe
 ```
 - Then, a console application would be appearing to show all results. If you want to see any differences, just add/delete/change something you want in `students.txt` and run again for any interesting things you hope to show up. 
 
-## Run tests
+## Run tests ##
 
 1. Open file *students.txt* to make some mini tests on validating data with format
  * GPA valid:
@@ -76,7 +76,7 @@ open MockStudentDataGenerator.exe
       |Email | ![email_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/email_error.png)|
       |DOB | ![dob_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/dob_error.png)|
       
-## Author
+## 💡 Author
 
 👤 **NGO NGUYEN QUANG TU**
 
@@ -100,15 +100,19 @@ After project, we both appreciate our experience on our team-working time which 
 ## Bonus Functions
 
  Not only building the essential-coded function, we also add an [external lib]( https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/MockStudentDataGenerator/json.hpp "nlogmann/json.hpp") to help make a better random for [addresses](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/MockStudentDataGenerator/address.json "address") that are written in `JSON` format. In addition, there are some bonus functions to check the wrongly-formatted line in file **students.txt** (validate GPA, telephone, email, dob) then indicate where that line is through showing a message on console with line index. If prgramm runs without no failure, based on their own GPA a <i> .csv </i> ranked list will be released demonstrating the TOP students sorted ASC with ranked order. 
+ 
+> *Sample Ranked List of T.O.P GPA Students:*
 
-## Expected Grades
+ <div align='center'> <img alt="rankings" src="https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/rankings.png"/> </div>
+
+## 💯 Expected Grades
 
 |Student ID| Workload |  Fulfilled-Work Percent | Subjective Grade |
 |----------|----------|-------------------------|------------------|
 |20120234  |          |                         |                  |
 |20120229  |          |                         |                  |
 
-## Demo Video 
+## 📹 Demo Video 
 
 ## 🤝 Contributing
 

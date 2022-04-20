@@ -21,7 +21,7 @@
 
 ### 🏠 [Homepage](https://github.com/SmilinOwls/MockStudentDataGenerator#readme)
 
-## Objectives
+## ✨ Objectives
    ### Main Target 
    - Create Simple Classes (File.h, Rand_Student.h, Student.h,..)
    ### Sub Goal
@@ -68,7 +68,7 @@ npm run test
 * Student ID: 20120234
 * Full Name: Ngô Nguyễn Quang Tú
 
-## Working Progress
+## 📅 Working Progress
 After project, we both appreciate our experience on our team-working time which we are so grateful for and proud of ourselves. We are on 200% of our ability way to have accomplished one as soon as possible. Hence, all requirements described in [Project Instruction](https://tdquang7.notion.site/Project-Mock-data-generator-1-7c70a1a81b724049bd82ede839e2ff24) are completely met.
 
 |Basic Requirements|Done Status|

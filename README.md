@@ -81,7 +81,7 @@ After project, we both appreciate our experience on our team-working time which 
 |Print out all the students that have a GPA greater than the average GPA|Yes|
 
 ## Bonus Functions
-Not only building the essential-coded function, we also add an external lib to help make a better random for addresses that are written in JSON format. In addition, there are some bonus functions to check the wrongly-formatted line in file students.txt (validate GPA, telephone, email, dob) then indicate where that line is through showing a message on console with line index. If prgramm runs without no failure, based on their own GPA a *.csv* ranked list will be released demonstrating the TOP students sorted ASC with ranked order.
+<p align='justified'> Not only building the essential-coded function, we also add an external lib to help make a better random for addresses that are written in JSON format. In addition, there are some bonus functions to check the wrongly-formatted line in file students.txt (validate GPA, telephone, email, dob) then indicate where that line is through showing a message on console with line index. If prgramm runs without no failure, based on their own GPA a *.csv* ranked list will be released demonstrating the TOP students sorted ASC with ranked order. </p>
 
 ## Expected Grades
 |Student ID| Wordload |  Fulfilled-Work Percent | Subjective Grade |

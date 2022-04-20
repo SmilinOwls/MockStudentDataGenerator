@@ -3,8 +3,8 @@
 <h1 align="center">MOCK STUDENT DATA GENERATOR 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://gcc.gnu.org/projects/cxx-status.html">
-    <img alt="g++ ver" src="https://img.shields.io/badge/g%2B%2B---std%3Dc%2B%2B11-blue"/>
+  <a href="https://gcc.gnu.org/projects/cxx-status.html" target="_blank">
+    <img alt="g++ ver" src="https://img.shields.io/badge/g%2B%2B---std%3Dc%2B%2B11-blue" />
   </a>
   <a href="https://github.com/SmilinOwls/MockStudentDataGenerator#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -49,23 +49,24 @@ git clone https://github.com/SmilinOwls/MockStudentDataGenerator/ MockStudentDat
 cd MockStudentDataGenerator/
 ```
 ## Usage
+
 - Open file `.exe` in *Release* folder to run all functions to check wether all requirements are completely done
 ```sh
 cd MockStudentDataGenerator/Release
 open MockStudentDataGenerator.exe
 ```
-- Then, a console application would be appearing to show all results. If you want to see any differences, just add/delete/change something you want in `students.txt` and run again for any interesting things you hope to show up. 
+- Then, a console application would be appearing to show all results. If you want to see any differences, just add/delete/change something you want in `students.txt` and run again for any interesting things you hope to show up 
 
-## Run tests ##
+## Run tests
 
 1. Open file *students.txt* to make some mini tests on validating data with format
- * GPA valid:
+ * **GPA valid:**
       ![gpa](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/gpa.png)
- * Tel valid:
+ * **Tel valid:**
       ![tel](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/telephone.png)
- * Email valid:
+ * **Email valid:**
       ![email](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/email.png)
- * DOB valid:
+ * **DOB valid:**
       ![dob](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/dob.png)
 2. Run every each of four above tests by running *MockStudentDataGenerator.exe* or by command line `open MockStudentDataGenerator.exe`
 3. Wait a second, here are the results all printed out on console to notice about the error format on each specified line, in particular:
@@ -76,7 +77,7 @@ open MockStudentDataGenerator.exe
       |Email | ![email_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/email_error.png)|
       |DOB | ![dob_error](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/dob_error.png)|
       
-## 💡 Author
+## Author
 
 👤 **NGO NGUYEN QUANG TU**
 
@@ -103,16 +104,18 @@ After project, we both appreciate our experience on our team-working time which 
  
 > *Sample Ranked List of T.O.P GPA Students:*
 
- <div align='center'> <img alt="rankings" src="https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/rankings.png"/> </div>
+<div align='center'> <img alt='ranking' src="https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/Documents/img/rankings.png"/> </div>
 
 ## 💯 Expected Grades
 
 |Student ID| Workload |  Fulfilled-Work Percent | Subjective Grade |
 |----------|----------|-------------------------|------------------|
-|20120234  |          |                         |                  |
-|20120229  |          |                         |                  |
+|20120234  | an author of README.md, mainly responsible for every each aspect of project/solution (Source code, Release, Document/img), so on..  |       100%          |          9.5        |
+|20120229  |  draw class diagrams, write a detailed report,..        |               100%          |         9.5         |
 
-## 📹 Demo Video 
+## 🎥 Demo Video 
+
+> Go On [Youtube]() To See Project Demo
 
 ## 🤝 Contributing
 

@@ -29,7 +29,7 @@
    - Practice On Handling Data Stream By `tuple<classs T1,class T2,..>` (when reading & writing file **.txt**)
    - Using `rand()` Function To Generate Data Randomly (for every each student's infor)
    - Read A File In `JSON` Format (for address random generator)
-   - Validate Check: Indicate the **Error Line** position in text if wrongly formatted (bonus function)
+   - Validate Check: Indicate The **Error Line** Position In Text If Wrongly Formatted (bonus function)
    - Sort A Vector And Save As A Ranked List In **.csv** Format (bonus function)
 
 ## Prerequisites
@@ -47,18 +47,19 @@ git clone https://github.com/SmilinOwls/MockStudentDataGenerator/ MockStudentDat
 #Navigate to the newly cloned repo
 cd MockStudentDataGenerator/
 ```
-
 ## Usage
 - Open file `.exe` in *Release* folder to run all functions to check wether all requirements are completely done
 ```sh
 cd MockStudentDataGenerator/Release
 open MockStudentDataGenerator.exe
 ```
+- Then, a console application would be appearing to show all results. If you want to see any differences, just add/delete/change something you want in `students.txt` and run again for any interesting things you hope to show up. 
 
 ## Run tests
-- Open file *students.txt* to make a mini test on validating data with format
+- Open file *students.txt* to make some mini tests on validating data with format
+- 
 ```sh
-npm run test
+
 ```
 
 ## Author

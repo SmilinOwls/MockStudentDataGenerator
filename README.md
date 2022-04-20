@@ -1,3 +1,5 @@
+*[**On progress**] Still Update..*
+
 <h1 align="center">MOCK STUDENT DATA GENERATOR 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -33,18 +35,25 @@
 - Build, Compile & Run on `gcc std=c++11` or above
 ## Install
 
+- Open Terminal (MacOS) or CMD Shell (Windows), then go on command line described below:
 ```sh
-npm install
+#Change your direction path to Desktop/ 
+cd Desktop/
+#Fork the project, clone this fork in a repo called *MockStudentDataGenerator*
+git clone https://github.com/SmilinOwls/MockStudentDataGenerator/ MockStudentDataGenerator
+#Navigate to the newly cloned repo
+cd MockStudentDataGenerator/
 ```
 
 ## Usage
-
+- Open file `.exe` to run all functions to check wether all requirements are completely done
 ```sh
-npm run start
+cd MockStudentDataGenerator/Release
+open MockStudentDataGenerator.exe
 ```
 
 ## Run tests
-
+- Open file *students.txt* to make a mini test on validating data with format
 ```sh
 npm run test
 ```

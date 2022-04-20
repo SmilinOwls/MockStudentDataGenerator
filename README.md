@@ -33,7 +33,7 @@
 
 ## Prerequisites
 - Visual Studio Code 2019 or latest versions
-- Build, Compile & Run on `gcc std=c++11` or above
+- Build, Compile & Run on `g++ -std=c++11 [..]` or above
 
 ## Install
 

@@ -20,7 +20,8 @@ int main(int argc, char *arcv[])
     if (!get<0>(rFile))
     {
         cout << get<1>(rFile);  //release the error messgae
-        return -1;              //return error code -1
+        Sleep(100000);         //sleep 100000 ms
+        return -1;            //return error code -1
     }
     
     //if be possible to read, then put
@@ -59,7 +60,8 @@ int main(int argc, char *arcv[])
     if (!get<0>(wFile))
     {
         cout << get<1>(wFile);  //release the error messgae
-        return 0;              //return error code 0
+        Sleep(100000);         //sleep 100000 ms
+        return 0;             //return error code 0
     }
 
     Sleep(5000); //sleep 1000ms 

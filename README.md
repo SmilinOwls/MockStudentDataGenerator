@@ -105,4 +105,4 @@ Copyright © 2022 [TU NGO NGUYEN QUANG](https://github.com/SmilinOwls).<br />
 This project is [MIT](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/LICENSE) licensed.
 
 ***
-_A ton thanks to [**kefranabg**](https://github.com/kefranabg) for helping me foster a great interest in creating a powerful readme.md ❤️_
+_A ton thanks to [**kefranabg**](https://github.com/kefranabg) for helping me foster a great interest in creating a powerful [readme.md](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/README.md) ❤️_

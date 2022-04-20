@@ -15,6 +15,7 @@
   <a href="https://visualstudio.microsoft.com/downloads/">
     <img alth="IDE: Visual Studio Code 2019" src = "https://img.shields.io/badge/IDE-VS%20Code%202019-ff69b4"/>  
   </a>
+  <img alt="Git Followers" src ="https://img.shields.io/github/followers/SmilinOwls?style=social"/>
 </p>
 
 > Project OOP's 01 - Detailed Instruction: [Mock Data Generator](https://tdquang7.notion.site/Project-Mock-data-generator-1-7c70a1a81b724049bd82ede839e2ff24) 

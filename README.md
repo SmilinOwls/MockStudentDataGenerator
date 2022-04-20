@@ -21,12 +21,13 @@
 
 ## Objectives
    ### Main Target 
-   - Create Simple Classes 
+   - Create Simple Classes (File.h, Rand_Student.h, Student.h,..)
    ### Sub Goal
-   - Practice On Handling Data Stream By `tuple<classs T1,class T2,..>`, Using `rand()` Function To Generate Data 
-   - Read A File In `JSON` Format
-   - Validate Check: Indicate the **Error Line** position in text if wrongly formatted
-   - Sort A Vector And Save As A Ranking In **.csv** Format
+   - Practice On Handling Data Stream By `tuple<classs T1,class T2,..>` (when reading & writing file **.txt**)
+   - Using `rand()` Function To Generate Data Randomly (for every each student's infor)
+   - Read A File In `JSON` Format (for address random generator)
+   - Validate Check: Indicate the **Error Line** position in text if wrongly formatted (bonus function)
+   - Sort A Vector And Save As A Ranked List In **.csv** Format (bonus function)
 ## Prerequisites
 - Visual Studio Code 2019 or latest versions
 - Build, Compile & Run on `gcc std=c++11` or above

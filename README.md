@@ -48,7 +48,7 @@ cd MockStudentDataGenerator/
 ```
 
 ## Usage
-- Open file `.exe` to run all functions to check wether all requirements are completely done
+- Open file `.exe` in *Release* folder to run all functions to check wether all requirements are completely done
 ```sh
 cd MockStudentDataGenerator/Release
 open MockStudentDataGenerator.exe

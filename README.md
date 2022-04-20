@@ -83,6 +83,14 @@ After project, we both appreciate our experience on our team-working time which 
 ## Bonus Functions
 Not only building the essential-coded function, we also add an external lib to help make a better random for addresses that are written in JSON format. In addition, there are some bonus functions to check the wrongly-formatted line in file students.txt (validate GPA, telephone, email, dob) then indicate where that line is through showing a message on console with line index. If prgramm runs without no failure, based on their own GPA a *.csv* ranked list will be released demonstrating the TOP students sorted ASC with ranked order.
 
+## Expected Grades
+|Student ID| Wordload |  Fulfilled-Work Percent | Subjective Grade |
+|----------|----------|-------------------------|------------------|
+|20120234  |          |                         |                  |
+|20120229  |          |                         |                  |
+
+## Demo Video 
+
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome! You can also take a look at the [contributing guide](https://github.com/SmilinOwls/MockStudentDataGenerator/blob/master/CONTRIBUTING.md)
 

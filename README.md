@@ -1,5 +1,3 @@
-*[**On progress**] Still Update..*
-
 <h1 align="center">MOCK STUDENT DATA GENERATOR 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -117,7 +115,7 @@ After project, we both appreciate our experience on our team-working time which 
 
 ## 🎥 Demo Video 
 
-> Go On [Youtube]() To See Project Demo
+> Go On [Youtube](https://youtu.be/iEfHOloqtRg) To See Project Demo
 
 ## 🤝 Contributing
 

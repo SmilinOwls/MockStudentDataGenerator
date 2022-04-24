@@ -18,7 +18,9 @@
   <img alt="Git Followers" src ="https://img.shields.io/github/followers/SmilinOwls?style=social"/>
 </p>
 
-> Project OOP's 01 - Detailed Instruction: [Mock Data Generator](https://tdquang7.notion.site/Project-Mock-data-generator-1-7c70a1a81b724049bd82ede839e2ff24) 
+> Project OOP's 01 - Detailed Instruction To Problem: [Mock Data Generator](https://tdquang7.notion.site/Project-Mock-data-generator-1-7c70a1a81b724049bd82ede839e2ff24) 
+ 
+> *See Solution at [Github Project Here](https://github.com/SmilinOwls/MockStudentDataGenerator)*
 
 ### 🏠 [Homepage](https://github.com/SmilinOwls/MockStudentDataGenerator#readme)
 
